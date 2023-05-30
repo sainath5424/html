@@ -1,0 +1,11 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> mypic </title>
+</head>
+<body>
+<h2> my pic is displaying </h2>
+<p> This is my pic</p>
+<img src=" C:\Users\saina\Dropbox\HTML A\SAI PHOTP B.TECH.jpg " width="150" height="200">
+</body>
+</html>
