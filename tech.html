@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+<title> week 9 Techinical answers
+</title>
+</head>
+<body>
+<p><br>1.What will be the value of s, if n=127?</br>
+<br>Read n </br>
+<br>i=0,s=0</br>
+<br>Function Sample(int n)</br>
+<br>while(n>0)</br>
+<br>r=n%10</br>
+<br>p=8^i</br>
+<br>s=s+p*r</br>
+i++</br>
+n=n/10</br>
+End While</br>
+Return s;</br>
+End Function</br>
+a.27</br>
+b.187</br>
+c.87      </br>                           </br>
+d.120</br>
+ans:c </br>
+Explanation:</br>
+The above code is converting an octal number into its decimal representation. Here we are treating 127 as an octal input and converting it into its decimal representation, that is 87. So, answer will be 87.</br>
+2. What is the output of the following code?</br>
+a=[5,4,2,4,0]</br>
+print(all(a))</br>
+print(any(a))</br>
+a. True , True</br>
+b. True , False    </br>                           
+c. False , False</br>
+d. False , True</br>
+Ans:d</br>
+Explanation: </br> It is a python code, here operation of all like logical and (If all the elements in the list is not equal to zero then only it is true)  and operation of any like logical or (If  at least one element in the not equal to then it is true)</br>
+3. What is the output of the following code?</br>
+a=[5,4,2,4]</br>
+del a</br>
+print(a)</br>
+a.	[ ]</br>
+b. Name error</br>                                ans:b
+c. [5,4]</br>
+d. [2,4]</br>
+ans:b </br>
+Explanation: </br> Here the working of del is delete the entire data which is present in a ,after deleting no present in a so it unable to print a , so name error occurs.</br>
+<P>
+</body>
+</html>
